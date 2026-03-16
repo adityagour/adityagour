@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #bc13fe;
+  --color-dark-bg: #030014;
+  --color-dark-panel: rgba(10, 10, 30, 0.6);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-text-primary: #e2e8f0;
+  --color-text-secondary: #94a3b8;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-dark-bg)] text-[var(--color-text-primary)] antialiased;
+    font-family: 'Inter', -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-[var(--color-dark-panel)] backdrop-blur-md rounded-2xl border border-[var(--color-glass-border)] shadow-2xl;
+  }
+
+  .glass-button {
+    @apply px-6 py-3 rounded-full border border-[var(--color-glass-border)] bg-white/5 backdrop-blur-sm text-white font-medium hover:bg-white/10 hover:border-[var(--color-neon-blue)] transition-all duration-300 ease-out;
+  }
+
+  .neon-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-neon-blue)] to-[var(--color-neon-purple)];
+  }
+}
+
+/* Custom Cursor Styles to override default */
+* {
+  cursor: none !important;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
