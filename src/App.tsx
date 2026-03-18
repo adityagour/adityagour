@@ -32,11 +32,6 @@ function App() {
         <About />
       </main>
 
-      <footer className="py-8 text-center border-t border-white/5 mt-20 relative z-10">
-        <p className="text-[var(--color-text-secondary)] text-sm font-mono">
-          Designed & Built with <span className="text-[var(--color-neon-blue)]">React</span> & <span className="text-[var(--color-neon-purple)]">Three.js</span>
-        </p>
-      </footer>
     </div>
   )
 }

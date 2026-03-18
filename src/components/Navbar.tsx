@@ -9,8 +9,8 @@ export default function Navbar() {
             className="fixed top-0 w-full z-40 px-6 py-4 flex justify-between items-center bg-transparent backdrop-blur-sm border-b border-white/5"
         >
             <div className="text-xl font-bold tracking-wider group cursor-pointer">
-                <span className="text-white">ALEX</span>
-                <span className="neon-text ml-1 opacity-80 group-hover:opacity-100 transition-opacity">CHEN</span>
+                <span className="text-white">Deepika</span>
+                <span className="neon-text ml-1 opacity-80 group-hover:opacity-100 transition-opacity">Maheshwari</span>
             </div>
 
             <div className="hidden md:flex gap-8 text-sm font-medium tracking-wide">

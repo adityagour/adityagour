@@ -37,17 +37,17 @@ export default function About() {
                         </p>
 
                         <div className="flex flex-col gap-4 mt-8 pt-8 border-t border-white/10">
-                            <a href="mailto:hello@example.com" className="flex items-center gap-4 text-gray-300 hover:text-[var(--color-neon-blue)] transition-colors group w-fit">
+                            <a href={`mailto:${dummyData.hero.email}`} className="flex items-center gap-4 text-gray-300 hover:text-[var(--color-neon-blue)] transition-colors group w-fit">
                                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-[var(--color-neon-blue)]/10 transition-colors">
                                     <FiMail size={18} />
                                 </div>
-                                <span>hello@example.com</span>
+                                <span>{dummyData.hero.email}</span>
                             </a>
                             <div className="flex items-center gap-4 text-gray-300">
                                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center">
                                     <FiMapPin size={18} />
                                 </div>
-                                <span>Tokyo, Japan</span>
+                                <span>{dummyData.hero.location}</span>
                             </div>
                         </div>
                     </div>
