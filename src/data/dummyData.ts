@@ -2,111 +2,145 @@ export const DO_NOT_USE = "not for actual data";
 
 export const dummyData = {
     hero: {
-        name: "Deepika Maheshwari",
-        title: "Full Stack Developer",
-        subtitle: "MERN // TypeScript // PostgreSQL // AWS",
-        email:'deepika.maheshwari209@gmail.com',
+        name: "Aditya Sharma",
+        title: "Senior Full Stack Developer",
+        subtitle: "React // Next.js // React Native // Node.js // AWS",
+        email: "Adityagourluck@gmail.com",
         location: "Jaipur, Rajasthan, India"
     },
 
     about: {
-        text: "Full Stack Developer with 4+ years of experience building scalable, user-centric web applications using React, Node.js, PostgreSQL, and AWS. Experienced in end-to-end product development, API performance optimization, and frontend performance tuning. Passionate about clean architecture, system design, and delivering reliable production-ready applications.",
+        text: "Senior Full Stack & Frontend Developer with 7+ years of experience building scalable enterprise, fintech, and e-commerce applications. Skilled in React, Angular, Next.js, Node.js, and React Native. Experienced in microservices architecture, CI/CD, and AWS deployments. Proven track record of optimizing systems for 100K+ users and reducing operational costs by 30%+, while delivering high-performance cross-platform applications.",
         
         skills: [
             "React.js",
+            "Angular",
             "Next.js",
-            "Vue.js",
+            "Redux",
+            "JavaScript (ES6+)",
             "TypeScript",
+            "HTML5",
+            "CSS3",
+            "Tailwind CSS",
+            "Bootstrap",
+            "React Native",
+            "Ionic Framework",
             "Node.js",
             "Express.js",
-            "PostgreSQL",
-            "MongoDB",
-            "Redux",
-            "Tailwind CSS",
-            "Material UI",
-            "AWS (Lambda, S3, EC2)",
+            "NestJS",
             "REST APIs",
-            "JWT & RBAC",
-            "System Design",
-            "Swagger",
-            "Git"
+            "GraphQL",
+            "Microservices",
+            "JWT & OAuth",
+            "MongoDB",
+            "Firebase",
+            "AWS (EC2, S3)",
+            "Docker",
+            "CI/CD (GitHub Actions, Jenkins)",
+            "Jest",
+            "Mocha",
+            "Unit & E2E Testing",
+            "Git",
+            "Agile / Scrum"
         ]
     },
 
     projects: [
         {
             id: 1,
-            title: "Connected Care (Healthcare Platform)",
-            description: "Developed a healthcare management system enabling patients to manage appointments, medicines, lab reports, and doctor interactions. Implemented RBAC for secure access and improved patient engagement through workflow automation.",
-            tags: ["React", "Node.js", "PostgreSQL", "RBAC", "AWS"],
-            image: "connected-care.jpg",
+            title: "LnW Gaming Dashboard Platform",
+            description: "Developed cross-platform player dashboards and admin panels for gaming machines. Implemented dynamic theming with 10+ customizable dashboards and improved system performance by 25%.",
+            tags: ["React", "Next.js", "Dashboard", "Performance"],
+            image: "lnw.jpg",
             link: "#"
         },
         {
             id: 2,
-            title: "Monarch (FinTech Application)",
-            description: "Built a scalable finance application improving transaction processing speed by 30%. Designed REST APIs and microservices using Node.js and Loopback, ensuring high reliability under load.",
-            tags: ["Node.js", "Microservices", "MongoDB", "FinTech"],
-            image: "monarch.jpg",
+            title: "Prudential Insurance Platform",
+            description: "Built enterprise insurance systems with automated claims processing and policy management, reducing manual workload and improving operational efficiency.",
+            tags: ["Next.js", "React", "Enterprise", "Insurance"],
+            image: "prudential.jpg",
             link: "#"
         },
         {
             id: 3,
-            title: "Hostizzy (Property & Travel Platform)",
-            description: "Created a booking dashboard using React and AWS, increasing conversion rates by ~20%. Developed secure APIs for real-time bookings and optimized UI workflows.",
-            tags: ["React", "AWS", "MongoDB", "Booking System"],
-            image: "hostizzy.jpg",
+            title: "Digital Assistant App",
+            description: "Developed a React Native app with e-commerce features, skin expert module, and booking system, serving 50,000+ monthly users.",
+            tags: ["React Native", "E-commerce", "Mobile"],
+            image: "assistant.jpg",
             link: "#"
         },
         {
             id: 4,
-            title: "Farm Fetch (E-commerce Platform)",
-            description: "Built an e-commerce platform for farmers to sell directly to customers. Integrated secure payments and improved API performance by 25%.",
-            tags: ["React", "Node.js", "E-commerce"],
-            image: "farmfetch.jpg",
+            title: "Zenbu - Film Industry App",
+            description: "Built a role-based job platform with chat, notifications, and Stripe payments. Onboarded 5,000+ professionals and reduced response latency by 35%.",
+            tags: ["React Native", "Chat", "Stripe"],
+            image: "zenbu.jpg",
             link: "#"
         },
         {
             id: 5,
-            title: "Angaza (E-commerce Application)",
-            description: "Contributed to frontend development using React and Redux, while leading frontend tasks and ensuring smooth feature delivery and bug resolution.",
-            tags: ["React", "Redux", "CSS"],
-            image: "angaza.jpg",
+            title: "Gozot Carpool App",
+            description: "Developed a full-stack carpooling app with ride booking, chat, payments, and driver verification, supporting 10,000+ users.",
+            tags: ["React Native", "Node.js", "Full Stack"],
+            image: "gozot.jpg",
             link: "#"
         }
     ],
 
     experience: [
         {
-            company: "CodeElan Technologies",
+            company: "PureSoftware",
+            role: "Senior Software Engineer",
+            duration: "Apr 2023 - Present",
+            highlights: [
+                "Developed enterprise insurance platforms using Next.js and React",
+                "Automated claims processing saving 200+ hours/month",
+                "Reduced data errors by 30% via optimized policy systems",
+                "Worked in Agile/Scrum teams for enterprise delivery"
+            ]
+        },
+        {
+            company: "Health and Glow",
+            role: "React Native Developer",
+            duration: "Apr 2021 - Apr 2023",
+            highlights: [
+                "Built Digital Assistant app with 50,000+ users",
+                "Improved app performance by 25%",
+                "Reduced release cycle by 20% using CI/CD pipelines",
+                "Implemented secure authentication and payments"
+            ]
+        },
+        {
+            company: "Crownstack Technologies",
+            role: "Senior React Native Developer",
+            duration: "Sep 2020 - Mar 2021",
+            highlights: [
+                "Led development of Zenbu platform",
+                "Integrated real-time chat and notifications",
+                "Reduced latency by 35%",
+                "Automated Stripe payment workflows"
+            ]
+        },
+        {
+            company: "Enappd",
             role: "Full Stack Developer",
-            duration: "Mar 2025 - Present",
+            duration: "Jun 2018 - Sep 2020",
             highlights: [
-                "Leading end-to-end development of scalable web applications",
-                "Optimizing PostgreSQL queries and improving API performance",
-                "Implemented RBAC and secure authentication",
-                "Deploying and scaling applications using AWS"
+                "Developed Gozot carpool app for 10,000+ users",
+                "Reduced booking time by 30%",
+                "Built Ionic app templates used by 5,000+ developers",
+                "Improved retention with push notifications"
             ]
         },
         {
-            company: "Decipher Zone Technologies Pvt. Ltd.",
-            role: "Software Engineer",
-            duration: "Jan 2022 - Feb 2025",
+            company: "Raivasa International",
+            role: "Web Developer",
+            duration: "Jun 2017 - Oct 2017",
             highlights: [
-                "Built high-traffic applications serving thousands of users",
-                "Improved backend performance by ~30%",
-                "Enhanced frontend performance by ~25%",
-                "Worked closely with cross-functional teams"
-            ]
-        },
-        {
-            company: "Extern Labs Pvt Limited",
-            role: "Solution Engineer",
-            duration: "Jan 2021 - Dec 2021",
-            highlights: [
-                "Developed scalable web solutions",
-                "Led frontend for finance platform improving efficiency by 20%",
-                "Mentored junior developers"
+                "Developed responsive websites using HTML, CSS, JS",
+                "Improved SEO ranking by 20%",
+                "Delivered multiple corporate websites"
             ]
         }
     ],
@@ -114,15 +148,15 @@ export const dummyData = {
     socials: [
         {
             name: "GitHub",
-            url: "https://github.com/deepika2007",
+            url: "https://github.com/adityagour",
         },
         {
             name: "LinkedIn",
-            url: "https://www.linkedin.com/in/deepika-maheshwari-fullstack/",
+            url: "https://www.linkedin.com/in/adityagour28/",
         },
         {
             name: "Email",
-            url: "mailto:deepika.maheshwari209@gmail.com",
+            url: "mailto:Adityagourluck@gmail.com",
         }
     ]
 };

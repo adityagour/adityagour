@@ -1,9 +1,9 @@
 {
-  "name": "deepika-portfolio",
+  "name": "aditya-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://deepika2007.github.io/portfolio/",
+  "homepage": "https://adityagour.github.io/adityagour/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
